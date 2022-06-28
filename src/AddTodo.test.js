@@ -42,7 +42,7 @@ test('test that App component renders Task', () => {
   fireEvent.change(inputTask, { target: {value: "History Test"}});
   fireEvent.change(inputDate, { target: { value: dueDate}});
   fireEvent.click(button);
-  const check = screen.getAllByText(/Project 1/i);
+  const check = screen.getAllByText(/History Test/i);
   const checkDate = screen.getByText(new RegExp(dueDate, "i"));
   expect(check.length).toBe(1);
   expect(check).toBeInTheDocument();
