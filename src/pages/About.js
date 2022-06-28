@@ -18,7 +18,7 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Esteban Leal</div>
             <div className="brief_description">
             I am Esteban Leal, a 22 year old college student majoring in Computer Science at 
               the University of Texas at San Antonio. I am also currently a part time employee at Best Buy,
